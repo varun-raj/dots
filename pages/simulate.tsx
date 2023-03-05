@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import POVDisplay from '../components/POVDisplay'
 
-export default function simulate() {
+export default function Simulate() {
   const router = useRouter()
   // @ts-ignore
   const delay = router.query.delay as number

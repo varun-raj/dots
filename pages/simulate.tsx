@@ -13,7 +13,7 @@ export default function simulate() {
           animation: `moveDots 30ms 0ms linear infinite`,
         }}
       >
-        <POVDisplay word={word} delay={4} />
+        <POVDisplay word={word} delay={40} />
       </div>
     </div>
   )
